@@ -484,4 +484,4 @@ def login_1(uid):
                 break
             elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
 
-                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mNNN\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;9
+                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mNNN\x1b[38;5;196m)\x1b[1;97m=\x1b[38;5;46m{uid}\x1b[1;9
